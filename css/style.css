@@ -1,0 +1,182 @@
+header {
+    background: rgba(0,0,0,0);
+
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    justify-content: space-between;
+    text-align: center;
+}
+
+body {
+    background: rgb(50,50,50);
+    background-image: url(../images/map14.png);
+    background-size : 50%;
+
+
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}
+
+.font1{
+    font-size: 20px;
+    font-weight:100;
+    text-align: center;
+}
+
+.font2{
+    font-size: 20px;
+    font-weight:normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.font3{
+    font-size: 100px;
+    font-weight:bold;
+    font-style: italic;
+    line-height : 70px;
+    text-align: center;
+    letter-spacing: -12px;
+}
+
+.font4{
+    font-size: 20px;
+    font-weight:100;
+    text-align: center;
+}
+
+.font5{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight:100;
+    text-align: left;
+}
+
+.font6{
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: -4px;
+}
+
+.font7{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-weight:100;
+    text-align: left;
+}
+
+.font8{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+.font9{
+    font-size: 30px;
+    font-weight:bold;
+    font-style: italic;
+    line-height : 21px;
+    text-align: center;
+    letter-spacing: -4px;
+}
+
+.font10{
+    font-size: 30px;
+    font-weight:bold;
+    font-style: italic;
+    line-height : 21px;
+    text-align: center;
+}
+
+
+
+
+
+menu {
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: yellow;
+    outline: none;
+    text-decoration:underline wavy;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.content {
+    padding: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+.wimg {
+    width: 80%;
+    max-width: 800px;
+    max-height: fit-content;
+}
+
+.himg {
+    width: 80%;
+    max-width: fit-content;
+    max-height: 800px;
+}
+
+
+footer {
+    margin-top : 30px;
+    margin-right: 10%;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    
+    body {
+        background: rgb(50,50,50);
+        background-image: url(../images/map14.png);
+        background-size : 100%;
+    
+    
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.5;
+    
+    }
+}
+
